@@ -13,6 +13,11 @@
 		4F3605092362DB010072D682 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F3605082362DB010072D682 /* Assets.xcassets */; };
 		4F36050C2362DB010072D682 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F36050B2362DB010072D682 /* Preview Assets.xcassets */; };
 		4F36050F2362DB010072D682 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F36050D2362DB010072D682 /* LaunchScreen.storyboard */; };
+		4F3605172362FD380072D682 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3605162362FD370072D682 /* Helper.swift */; };
+		4F3605192362FD740072D682 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3605182362FD740072D682 /* Menu.swift */; };
+		4F36051B2362FD7B0072D682 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F36051A2362FD7B0072D682 /* Order.swift */; };
+		4F36051D2362FD8F0072D682 /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = 4F36051C2362FD8F0072D682 /* menu.json */; };
+		4F8DD49A238ACA53009FA716 /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8DD499238ACA53009FA716 /* ItemRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		4F36050B2362DB010072D682 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4F36050E2362DB010072D682 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4F3605102362DB010072D682 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F3605162362FD370072D682 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		4F3605182362FD740072D682 /* Menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		4F36051A2362FD7B0072D682 /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		4F36051C2362FD8F0072D682 /* menu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = menu.json; sourceTree = "<group>"; };
+		4F8DD499238ACA53009FA716 /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +69,11 @@
 				4F3605022362DAFE0072D682 /* AppDelegate.swift */,
 				4F3605042362DAFE0072D682 /* SceneDelegate.swift */,
 				4F3605062362DAFE0072D682 /* ContentView.swift */,
+				4F8DD499238ACA53009FA716 /* ItemRow.swift */,
+				4F3605182362FD740072D682 /* Menu.swift */,
+				4F36051A2362FD7B0072D682 /* Order.swift */,
+				4F3605162362FD370072D682 /* Helper.swift */,
+				4F36051C2362FD8F0072D682 /* menu.json */,
 				4F3605082362DB010072D682 /* Assets.xcassets */,
 				4F36050D2362DB010072D682 /* LaunchScreen.storyboard */,
 				4F3605102362DB010072D682 /* Info.plist */,
@@ -135,6 +150,7 @@
 			files = (
 				4F36050F2362DB010072D682 /* LaunchScreen.storyboard in Resources */,
 				4F36050C2362DB010072D682 /* Preview Assets.xcassets in Resources */,
+				4F36051D2362FD8F0072D682 /* menu.json in Resources */,
 				4F3605092362DB010072D682 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -146,9 +162,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F36051B2362FD7B0072D682 /* Order.swift in Sources */,
 				4F3605032362DAFE0072D682 /* AppDelegate.swift in Sources */,
 				4F3605052362DAFE0072D682 /* SceneDelegate.swift in Sources */,
+				4F8DD49A238ACA53009FA716 /* ItemRow.swift in Sources */,
 				4F3605072362DAFE0072D682 /* ContentView.swift in Sources */,
+				4F3605172362FD380072D682 /* Helper.swift in Sources */,
+				4F3605192362FD740072D682 /* Menu.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
